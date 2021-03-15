@@ -146,7 +146,7 @@ pre code {
 }
 
 .navbar-nav .nav-item a {
-    color: var(--main-text-color);
+    color: var(--white-text);
 }
 
 .navbar-nav .nav-item a:hover {
@@ -570,8 +570,8 @@ footer .company-logo {
 #home-boxes a {
     width: 100%;
     text-align: left;
-    color: var(--main-text-color);
-    background-color: var(--light-grey);
+    color: var(--white-text);
+    background-color: var(--hover-grey);
     display: block;
     padding: 7px 11px;
     text-decoration: none;
@@ -593,6 +593,7 @@ footer .company-logo {
 
 #home-boxes ul li a {
     background-color: var(--main-bg-color);
+    color: var(--main-text-color);
 }
 
 #home-boxes .dropdown-toggle.show::after {
@@ -605,7 +606,7 @@ footer .company-logo {
     overflow-y: scroll;
     overflow-x: hidden;
     box-shadow: 0px 8px 10px rgba(70, 70, 70, 0.5);
-    width: 14em;
+    width: 15em;
 }
 
 .dropdown .dropdown-menu li {
@@ -645,7 +646,7 @@ footer .company-logo {
 }
 
 .hall-of-fame-hero {
-    width: 18%;
+    width: 16%;
     background-color: var(--light-grey);
     padding: 15px 0px;
     display: flex;
@@ -790,6 +791,6 @@ footer .company-logo {
 
 @media (min-width: 1200px) {
     .ratio.main_rdm {
-        padding-bottom: 35%;
+        padding-bottom: 30%;
     }
 }
