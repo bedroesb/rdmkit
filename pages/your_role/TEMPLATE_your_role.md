@@ -1,9 +1,8 @@
 ---
 title: <Your persona>
-keywords: [<!---REPLACE THIS with comma separated list of keywords--->]
 summary: Fill in your summary or delete this property when not needed
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-search: exclude
+search_exclude: true
 ---
 
 {% include note.html content="This page is under construction." %}
@@ -22,7 +21,7 @@ I am interested in large scale high-throughput analysis of omics data and I have
 * Development of data workflow
 * Training of staff and students in data analysis and data management including writing DMPs
 
-## Common data issues I encounter
+## Common data problems I encounter
 
 * What are the data retention policies for my country?
 * Where can data be stored during the project? (considering size of data and who has access rights)

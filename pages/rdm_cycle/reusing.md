@@ -1,6 +1,5 @@
 ---
 title: Reusing
-keywords: [reuse data, licence, data integration, citing data]
 contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
 ---
 
@@ -50,5 +49,4 @@ Consider the following when reusing data:
 * Responsibilities
 * Ethical and legal issues -->
 
-<!-- ## External links
-missing content -->
+

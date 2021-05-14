@@ -1,6 +1,5 @@
 ---
 title: Planning
-keywords: [dmp, data stewardship]
 contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, Flora D'Anna]
 ---
 
@@ -51,6 +50,3 @@ progresses to match e.g. an update of the infrastructures, research softwares or
 ## Where can training materials and events about Data Management Planning be found?
 
 {% include tess.html search="Data Management Planning" %}
-
-
-<!-- ## External links -->

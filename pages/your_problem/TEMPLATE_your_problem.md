@@ -1,9 +1,8 @@
 ---
 title: Global problem title (e.g. metadata management)
-keywords: [<!---REPLACE THIS with comma separated list of keywords--->]
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 tags: [<!---REPLACE THIS with comma separated list of "Cycle Tags" or "Role Tags"--->]
-search: exclude
+search_exclude: true
 ---
 
 ## Concrete problem 1, formulated as a question <!-- example: what is the best way to name a file?-->
@@ -37,10 +36,6 @@ Same as above
 
 ### Solutions <!-- do not delete this heading and write your text below it -->
 Same as above
-
-## External links <!-- put this heading between the symbols used for this sentence if you don't use this paragraph -->
-(Optional section)
-* Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above.
 
 ## Relevant tools and resources
 <!--- Automatically generated tools table; replace the TAG below with the PROBLEM TAG for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tags.yml). If it isn't listed there, please raise an issue.--->

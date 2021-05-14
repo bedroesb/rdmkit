@@ -1,6 +1,5 @@
 ---
 title: Processing
-keywords: [data cleaning, data formatting, quality check, data validation]
 contributors: [Rob Hooft, Munazah Andrabi]
 ---
 
@@ -39,5 +38,3 @@ The following considerations are important for data processing:
 ## Where can training materials and events about data processing be found?
 
 {% include tess.html search="Data Processing" %}
-<!--## External links
-missing content -->

@@ -1,12 +1,12 @@
 ---
-title: Nels assembly 
+title: NeLS assembly 
 contributors: [Korbinian Bösl, Erik Hjerde]
 summary: This is an example of a Data Management tool assembly, NeLS as an infrastructure is funded and aimed for researchers in Norway and their collaborators.
 ---
 
 ## What is the NeLS data management tool assembly?
 
-The [Norwegian e-Infrastructure for Life Sciences (NeLS)](https://nels.bioinfo.no/) is an infrastructure provided by [ELIXIR Norway](https://elixir.no/). NeLS provides necessary tools for Data Management and covers [Planning](planning), [Processing](processing), [Analysing](analysing) and [Sharing](sharing) Data Life Cycle stages and offers [Data Storage](storage) capacities.
+The [Norwegian e-Infrastructure for Life Sciences (NeLS)](https://nels.bioinfo.no/) is an infrastructure provided by [ELIXIR Norway](https://elixir.no/). [NeLS](https://doi.org/10.12688/f1000research.15119.1) provides necessary tools for Data Management and covers [Planning](planning), [Processing](processing), [Analysing](analysing) and [Sharing](sharing) Data Life Cycle stages and offers [Data Storage](storage) capacities.
 
 ## Who can use the NeLS data management tool assembly?
 
@@ -16,7 +16,7 @@ NeLS and the underlying infrastructure are accessible for researchers in Norway 
 
 ## For what can you use the NeLS data management tool assembly?
 
-{% include image.html file="NeLS_toolkit.svg" caption="Figure 1. The Norwegian e-Infrastructure for Life Sciences (NeLS) Data Management tool assembly." alt="NeLS RDMKit" %}
+{% include image.html file="NeLS_toolkit.svg" caption="Figure 1. The Norwegian e-Infrastructure for Life Sciences (NeLS) Data Management tool assembly." alt="NeLS RDMkit" %}
 
 You can access all tools in NeLS using the the national solution for secure login and data sharing in the educational and research sector [FEIDE](https://www.feide.no/), when coupled with [ELIXIR AII](https://elixir-europe.org/services/compute/aai).
 The NeLS Data Management tool assembly can support you with [Data Management Planning](planning) through an [instance of the Data Steward Wizard](https://elixir-no.ds-wizard.org) with a dedicated knowledge model referring to national infrastructure, resources, laws and regulations. Soon you will be able to submit storage request forms for [Data Storage](storage) in NeLS with defined access roles through the Data Steward Wizard.
@@ -32,27 +32,6 @@ In order to help you to keep track of metadata NeLS has been integrated with the
  
 One good way to share your data is to deposit them in the [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases). The NeLS Data Management tool assembly will soon offer tools to help you with the deposition step for data stored in NeLS.
 
-## External links
-
-Technical article about [Norwegian e-Infrastructure for Life Sciences (NeLS)](https://doi.org/10.12688/f1000research.15119.1)
-
-[Norwegian e-Infrastructure for Life Sciences (NeLS)](https://nels.bioinfo.no/) 
-
-[Data Steward Wizard for Life Scientist in Norway](https://elixir-no.ds-wizard.org)
-
-[usegalaxy.no](https://usegalaxy.no)
-
-[FEIDE](https://www.feide.no/)
-
-[ELIXIR AII](https://elixir-europe.org/services/compute/aai)
-
-[FAIRDOMHub](https://fairdomhub.org/)
-
-[SEEK](https://seek4science.org/)
-
-[JWS Online](jjj.mib.ac.uk)
-
-[ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
 
 ## Where can I find training materials and events about the NeLS data management tool assembly?
 

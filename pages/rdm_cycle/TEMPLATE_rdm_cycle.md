@@ -1,8 +1,7 @@
 ---
 title: -ing form of the stage name - (e.g. analysing, rather than just analyse)
-keywords: [<!---Optional. REPLACE THIS with comma separated list of keywords--->]
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-search: exclude
+search_exclude: true
 ---
 
 ## What is "data + stage name"? <!-- edit this heading (e.g. what is data analysis?) and write your text below it -->
@@ -24,7 +23,3 @@ List and explain all aspects that need to be taken into account to manage this "
 Link to TESS page filtered by adequate keyword(s) done by:
 
 {% include tess.html search="keyword" %} <!-- e.g. {% include tess.html search="Data Analysis" %} -->
-
-## External links <!-- put this heading between the symbols used for this sentence if you don't use this paragraph -->
-(Optional section)
-* Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above

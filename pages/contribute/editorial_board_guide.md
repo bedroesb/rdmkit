@@ -13,7 +13,7 @@ As an editor, try to work as much as possible on a different branch than the mas
 ### The google doc way of contributing
 This process is sketched below.
 
-{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" click=true  %}
+{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" click=true %}
 
 ### Overview of the file structure in GitHub
 
@@ -54,6 +54,8 @@ Optional metadata/frontmatter:
 * `tags`: If you want to tag this page, list the tags using this attribute. If you want to use multiple tags, make sure to put them in a list like this: [example1, example2].
 
 * `datatable`: Use this attribute to activate pagination, sorting  and searching in tables.
+
+* `description`: This is a one-liner and is used when the page is listed. 
 
 ### Markdown file naming
 
@@ -108,7 +110,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
     {% include image.html file="name_file_github.png" inline=true alt="Name the file in GitHub." %}
 
 7. Check the frontmatter/metadata of the markdown page:
-    - delete `search: exclude` attribute.
+    - delete `search_exclude: true` attribute.
     - add the author names to the contributors list.
     - optional: change the title into an appropriate one.
 
@@ -138,8 +140,7 @@ The attributes that define the structure are:
 - `title`: This is the text that will show up in the sidebar.
 - `url`: The URL to the internal page you want to link to. This is mostly in the form of: */markdown_file_name.html*.
 - `external_url`: Use this instead of URL if you want to link to an external page.
-- `folderitems`: To start a second level of links.
-- `subfolderitems`: To start a third level of links.
+- `subitems`: to define a sublevel.
 
 ```yaml
 - title: Level_1_title
@@ -164,6 +165,7 @@ If the markdown page is named example_1.md, you can link towards it using:
 {% include important.html content="If you change the file name, you'll have to update all of your links." %}
 
 
+
 ## Linking the GitHub accounts to the contributors
 
 Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
@@ -172,12 +174,26 @@ Do you want that the GitHub picture of a contributor is shown next to their name
 Bert Droesbeke:
     git: bedroesb
     email: bedro@psb.ugent.be
-    gitter: bedroesb
     orcid: 0000-0003-0522-5674
-
+    role: editor
+    affiliation: VIB-UGent
 ```
 {% include important.html content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 
+
+## Adding an institute, project or funder to the support page
+
+Institutes are listed in the [INSTITUTES.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/INSTITUTES.yaml) file, projects in the [PROJECTS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/PROJECTS.yaml) file and funders are listed in the [FUNDERS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/FUDNERS.yaml) file. In this file, the name, url towards the website and the relative path to the logo is given.
+
+```yaml
+- name: VIB-PSB
+  image_url: /images/institutes/VIB-PSB.svg
+  url: https://www.psb.ugent.be/
+```
+
+The logos can be added to the [/images/institutes](https://github.com/elixir-europe/rdmkit/blob/master/images/institutes/), [/images/projects](https://github.com/elixir-europe/rdmkit/blob/master/images/projects/) and [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
+
+{% include important.html content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
 
 ## Page tagging
 
