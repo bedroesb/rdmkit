@@ -1,7 +1,7 @@
 ---
 title: Proteomics
 description: Data management solutions for proteomics data.
-contributors: [Michael Turewicz, Martin Eisenacher, Anika Frericks-Zipper, Ulrike Wittig]
+contributors: [Michael Turewicz, Martin Eisenacher, Anika Frericks-Zipper, Ulrike Wittig, Dirk Winkelhardt]
 page_id: proteomics
 related_pages:
   your_tasks: [metadata]
@@ -57,8 +57,15 @@ For all steps within a FAIR proteomics data analysis pipeline software is needed
 
 ### Solutions
 - Within the proteomics community various converter software tools such as [msconvert](https://proteowizard.sourceforge.io/) were implemented, which support the conversion of mass spectrometer output formats to the mzML standard data format as well as other conversions to standard data formats.
-- Information on software tools that support HUPO-PSI standard data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [MZTAB](https://www.psidev.info/mztab) ).
+- Information on software tools that support HUPO-PSI data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [MZTAB](https://www.psidev.info/mztab) ).
 
+
+### Example of tools using PSI formats
+* [Comet](https://uwpr.github.io/Comet/) - Open source MS search engine for identifying peptides
+* [Mascot](https://www.matrixscience.com/server.html) - MS search engine for identifying peptides
+* [OpenMS](https://openms.de/) - Library to process LC/MS data
+* [PIA - Protein Inference Algorithms](https://github.com/mpc-bioinformatics/pia) - Collection of protein inference algorithms which can combine the results of multiple search engines
+* [Skyline](https://skyline.ms/project/home/begin.view) - 
 
 
 ## Preserving and sharing proteomics data
@@ -75,6 +82,6 @@ In order to make proteomics data and results worldwide findable and accessible f
 
 
 ### Solution
-- You can find an appropriate data repository via the website of the [ProteomeXchange](http://www.proteomexchange.org/) Consortium. ProteomeXchange was established to provide globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories, and to encourage open data policies in the field. Currently, member repositories include PRIDE, PepideAtlasq, MassIVE, jPOST, iProx and PanoramaPublic.
-- Information on data uploads can be found on [proteomexchange.org](http://www.proteomexchange.org/submission) or on the websites of the particular data repositories. E.g. PRIDE uploads are conducted via a [submission tool](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool). There are data repository-specific requirements.
+- You can find an appropriate data repository via the website of the [ProteomeXchange](http://www.proteomexchange.org/) Consortium. ProteomeXchange was established to provide globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories, and to encourage open data policies in the field. Currently, member repositories include [PRIDE](https://www.ebi.ac.uk/pride/), [PeptideAtlas](https://peptideatlas.org/), [MassIVE](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp), jPOST, iProx and PanoramaPublic.
+- Information on data uploads can be found on [ProteomeXchange](http://www.proteomexchange.org/submission) or on the websites of the particular data repositories. E.g. PRIDE uploads are conducted via the [PRIDE Submission Tool](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool). There are data repository-specific requirements.
 - Advantages of data publication: fulfillment of journal requirements, higher visibility of research, free storage, worldwide accessibility, basic re-analysis by repository-associated tools
