@@ -11,7 +11,7 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 #### RDMkit logo horizontal
 
 <p>
-  <img src="{{ 'assets/img/RDMkit_logo.svg' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo horizontal" /> 
+  <img src="{{ 'assets/img/RDMkit_logo.svg' | relative_url }}" class="m-2 bg-white p-2 rounded" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo horizontal" /> 
     [<a href="{{ 'assets/img/RDMkit_logo.svg' | relative_url }}">svg</a>]
     [<a href="{{ 'assets/img/RDMkit_logo.png' | relative_url }}">png</a>]
 </p>
@@ -19,7 +19,7 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 #### RDMkit logo horizontal inverted
 
 <p>
-  <img src="{{ 'assets/img/RDMkit_logo_inverted.svg' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo horizontal inverted" />
+  <img src="{{ 'assets/img/RDMkit_logo_inverted.svg' | relative_url }}" class="m-2 bg-dark p-2 rounded" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo horizontal inverted" />
     [<a href="{{ 'assets/img/RDMkit_logo_inverted.svg' | relative_url }}">svg</a>]
     [<a href="{{ 'assets/img/RDMkit_logo_inverted.png' | relative_url }}">png</a>]
 </p>
@@ -27,7 +27,7 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 #### RDMkit logo condensed
 
 <p>
-  <img src="{{ 'assets/img/RDMkit_logo_condensed.svg' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo condensed" />
+  <img src="{{ 'assets/img/RDMkit_logo_condensed.svg' | relative_url }}" class="m-2 bg-white p-2 rounded" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo condensed" />
     [<a href="{{ 'assets/img/RDMkit_logo_condensed.svg' | relative_url }}">svg</a>]
     [<a href="{{ 'assets/img/RDMkit_logo_condensed.png' | relative_url }}">png</a>]
 </p>
@@ -35,12 +35,29 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 #### RDMkit logo condensed inverted
 
 <p>
-  <img src="{{ 'assets/img/RDMkit_logo_condensed_inverted.svg' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo condensed inverted" />
+  <img src="{{ 'assets/img/RDMkit_logo_condensed_inverted.svg' | relative_url }}" class="m-2 bg-dark p-2 rounded" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo condensed inverted" />
     [<a href="{{ 'assets/img/RDMkit_logo_condensed_inverted.svg' | relative_url }}">svg</a>]
     [<a href="{{ 'assets/img/RDMkit_logo_condensed_inverted.png' | relative_url }}">png</a>]
 </p>
 
 ## Data life cycle diagram
+
+If you reuse the Data life cycle diagram please use one of the following snippets for correct attribution:
+
+<div class="card bg-light my-4">
+  <div class="card-body">
+    <p class="card-text">"<a href="https://rdmkit.elixir-europe.org/media_kit">Data life cycle diagram</a>" by <a href="https://rdmkit.elixir-europe.org">RDMkit</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+  </div>
+</div>
+
+or
+
+<div class="card bg-light my-4">
+  <div class="card-body">
+    <p class="card-text">"<a href="https://rdmkit.elixir-europe.org/media_kit">Data life cycle diagram</a>" by <a href="https://rdmkit.elixir-europe.org">RDMkit</a> / <a href="https://creativecommons.org/licenses/by/4.0/">CC BY</a></p>
+  </div>
+</div>
+
 
 #### Data life cycle diagram basic
 
@@ -68,9 +85,13 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 
 ## Presentations
 
-#### RDMkit in 1 and 3 slides
+#### RDMkit template slide
+<div class="ratio ratio-16x9">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRuJurLY3btKaQQsQlxSpFcMy3C6oFSKBt-VW2Xu1hwRR7wvEQGqglvAxoohVOnUg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 
-<iframe  class="scale" src="https://docs.google.com/presentation/d/e/2PACX-1vQN8VjdCv96Jwdd1H8r-bxhVPk1wgI-FBTfuHiHX1_7R9HCl30W6GDPXMSm_bQkwz99vK0KGDYY3Na2/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+\\
+[Google Drive link to the template](https://docs.google.com/presentation/d/19M-oKsY10FdudVL4gcyfaMAFMq3pTfEv/edit#slide=id.p1)
 
 
 ## Promotion gif
